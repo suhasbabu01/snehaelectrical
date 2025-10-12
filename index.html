@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha Electrical - BESCOM Permissions & Electrical Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Contact Info Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="contacts-info">
+                <div class="contacts-item" id="open-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+91 9902827569</span>
+                </div>
+                <div class="contacts-item" id="open-email">
+                    <i class="fas fa-envelope"></i>
+                    <span>snehaelectrical96@gmail.com</span>
+                </div>
+                <div class="contacts-item" id="open-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Find Our Location</span>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <!-- <div class="logo-img">SE</div> -->
+                <img src="img/logo.jpg" alt="Logo" class="logo-img">
+                <div class="logo-text">Sneha Electrical</div>
+            </div>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <!-- <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#news">News</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Location Popup -->
+    <div class="location-popup" id="location-popup">
+        <div class="location-content">
+            <div class="location-header">
+                <h3>Our Location</h3>
+                <button class="close-popup" id="close-location">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="location-body">
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.646579363728!2d77.59466031482146!3d12.934990990878273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15c49c040309%3A0x6553433f72187b59!2sBangalore%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1647851561234!5m2!1sen!2sin"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="location-details">
+                    <div class="location-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Electrical Street, Bangalore, Karnataka 560001</p>
+                        </div>
+                    </div>
+                    <div class="location-detail">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9902827569</p>
+                        </div>
+                    </div>
+                    <div class="location-detail">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>snehaelectrical96@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="location-detail">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Monday - Saturday: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Email Popup -->
+    <div class="email-popup" id="email-popup">
+        <div class="email-content">
+            <div class="email-header">
+                <h3>Contact Us Via Email</h3>
+                <button class="close-popup" id="close-email">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="email-body">
+                <p>You can reach us at:</p>
+                <h4 style="color: var(--accent); margin: 10px 0;">snehaelectrical96@gmail.com</h4>
+                <p>We typically respond to emails within 24 hours during business days.</p>
+                <div class="email-actions">
+                    <button class="btn" id="copy-email">
+                        <i class="fas fa-copy"></i> Copy Email
+                    </button>
+                    <a href="mailto:snehaelectrical96@gmail.com" class="btn btn-accent">
+                        <i class="fas fa-envelope"></i> Send Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Your One-Stop Electrical Contractor for BESCOM Permissions & HT/LT Installations</h1>
+                <p>We specialize in power supply permissions from BESCOM, HT & LT electrical installations, transformer
+                    erection, shifting of electrical infrastructure, and all electrical office work including load
+                    enhancements, name changes, and more.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn">Contact Us</a>
+                    <a href="#contact" class="btn btn-accent">Get a Free Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>Comprehensive electrical solutions for residential, commercial, and industrial clients</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>BESCOM Power Supply Permissions</h3>
+                    <p>We assist with new electrical connections and approvals from BESCOM including new connections,
+                        temporary power supply, additional load approvals, and more.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>HT & LT Electrical Installations</h3>
+                    <p>Licensed to execute High Tension (HT) and Low Tension (LT) installations including line works,
+                        transformer erection, cable laying, and distribution boards.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Transformer Installation Services</h3>
+                    <p>We provide supply, erection & testing of oil/dry-type transformers, foundation works, earthing,
+                        fencing, and liaison with BESCOM & CEIG for approvals.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>Shifting of Electrical Installations</h3>
+                    <p>We handle shifting of transformers, poles, panels, meters, overhead to underground conversion,
+                        and electrical re-routing with BESCOM coordination.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Electrical Office Work & Documentation</h3>
+                    <p>We manage all backend procedures and file work for additional load applications, name change
+                        requests, tariff changes, and CEIG safety certificates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Complete Electrical Services – From Approvals to Installations</h2>
+                    <p>At Sneha Electrical, we handle everything related to electrical power supply connections – from
+                        getting BESCOM approvals to installing transformers, shifting existing electrical systems, and
+                        managing all related office documentation and compliance.</p>
+                    <p>We provide comprehensive services for residential homes, commercial buildings, and industrial
+                        setups — ensuring your project is powered up safely, legally, and efficiently.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div>
+                                <h4>BESCOM Approval Specialists</h4>
+                                <p>Expertise in navigating BESCOM procedures and requirements</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div>
+                                <h4>HT & LT Installations with Material Supply</h4>
+                                <p>Complete solutions from planning to execution</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div>
+                                <h4>Residential, Commercial & Industrial Expertise</h4>
+                                <p>Tailored solutions for all types of properties</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                        alt="Electrical Work">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Projects</h2>
+                <p>Showcasing our recent electrical installations and BESCOM approval work</p>
+            </div>
+            <div class="projects-container" id="projects-container">
+                <!-- Projects will be dynamically loaded here -->
+            </div>
+            <div class="scroll-controls">
+                <button class="scroll-btn" id="scroll-left">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="scroll-btn" id="scroll-right">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section class="section blogs" id="blogs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Blogs</h2>
+                <p>Insights, tips, and updates from the electrical industry</p>
+            </div>
+            <div class="blogs-grid">
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                            alt="BESCOM Approval Process">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> June 15, 2023</span>
+                            <span><i class="far fa-user"></i> Admin</span>
+                        </div>
+                        <h3>Understanding the BESCOM Approval Process for New Connections</h3>
+                        <p>A comprehensive guide to navigating the BESCOM approval process for new electrical
+                            connections, including required documents and timelines.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1621905251189-08e43c5b79ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                            alt="HT Installation">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> May 28, 2023</span>
+                            <span><i class="far fa-user"></i> Admin</span>
+                        </div>
+                        <h3>Key Considerations for HT Installation in Industrial Settings</h3>
+                        <p>Important factors to consider when planning High Tension electrical installations for
+                            industrial facilities to ensure safety and compliance.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80"
+                            alt="Transformer Maintenance">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> May 12, 2023</span>
+                            <span><i class="far fa-user"></i> Admin</span>
+                        </div>
+                        <h3>Essential Maintenance Tips for Electrical Transformers</h3>
+                        <p>Learn about the critical maintenance practices that can extend the lifespan of your
+                            electrical transformers and prevent costly downtime.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="section" id="clients">
+        <div class="container">
+            <div class="section-title">
+                <h2>Who We Serve</h2>
+                <p>Comprehensive electrical solutions for all types of properties</p>
+            </div>
+            <div class="clients-grid">
+                <div class="client-card">
+                    <div class="client-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Residential</h3>
+                    <p>Individual Homes, Apartments, Layouts</p>
+                </div>
+                <div class="client-card">
+                    <div class="client-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Commercial</h3>
+                    <p>Shops, Offices, Malls, Restaurants</p>
+                </div>
+                <div class="client-card">
+                    <div class="client-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Industrial</h3>
+                    <p>Factories, Warehouses, Manufacturing Units</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="section news" id="news">
+        <div class="container">
+            <div class="section-title">
+                <h2>Latest BESCOM News & Updates</h2>
+                <p>Stay updated with the latest information from BESCOM</p>
+            </div>
+
+            <div class="news-controls">
+                <button class="news-tab active" data-category="all">All Updates</button>
+                <button class="news-tab" data-category="tariff">Tariff Updates</button>
+                <button class="news-tab" data-category="safety">Safety Notices</button>
+                <button class="news-tab" data-category="maintenance">Maintenance Schedules</button>
+                <button class="news-tab" data-category="schemes">New Schemes</button>
+            </div>
+
+            <div id="news-container">
+                <div class="news-loader">
+                    <div class="spinner"></div>
+                    <p>Loading latest BESCOM updates...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Let's Get You Connected — the Right Way</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Electrical Street, Bangalore, Karnataka 560001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9902827569</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>snehaelectrical96@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon–Sat | 9 AM – 6 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            <div class="error" id="nameError">Please enter your name</div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                            <div class="error" id="emailError">Please enter a valid email address</div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" id="service" required>
+                                <option value="" disabled selected>Select Service</option>
+                                <option>BESCOM Power Supply Permissions</option>
+                                <option>HT & LT Electrical Installations</option>
+                                <option>Transformer Installation Services</option>
+                                <option>Shifting of Electrical Installations</option>
+                                <option>Electrical Office Work & Documentation</option>
+                            </select>
+                            <div class="error" id="serviceError">Please select a service</div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="button-group">
+                            <button type="button" class="custom-btn btn-email" id="sendEmailBtn">
+                                <i class="fas fa-envelope"></i> Send Email
+                            </button>
+                            <button type="button" class="custom-btn btn-whatsapp" id="sendWhatsappBtn">
+                                <i class="fab fa-whatsapp"></i> Send WhatsApp
+                            </button>
+                        </div>
+                    </form>
+                    <div class="success-message" id="successMessage">
+                        Thank you! Your message has been sent successfully.
+                    </div>
+                    <div class="whatsapp-notification" id="whatsappNotification">
+                        <p>Your message has been prepared for WhatsApp!</p>
+                        <p>Click <a href="#" id="whatsappLink">here</a> to send it via WhatsApp if it didn't open
+                            automatically.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Sneha Electrical</h3>
+                    <p>Your trusted partner for all electrical contracting needs, specializing in BESCOM permissions,
+                        HT/LT installations, and transformer services.</p>
+                </div>
+                <!-- <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#blogs">Blogs</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div> -->
+                <div class="footer-col">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">BESCOM Permissions</a></li>
+                        <li><a href="#services">HT & LT Works</a></li>
+                        <li><a href="#services">Transformer Installation</a></li>
+                        <li><a href="#services">Electrical Shifting</a></li>
+                        <li><a href="#services">Office Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Electrical Street, Bangalore</li>
+                        <li><i class="fas fa-phone-alt"></i> +91 9902827569</li>
+                        <li><i class="fas fa-envelope"></i> snehaelectrical96@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Sneha Electrical. All rights reserved. | Class-I Licensed
+                    Electrical
+                    Contractor</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
