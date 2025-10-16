@@ -63,7 +63,7 @@ const projectsData = [
         title: "Industrial Transformer Installation",
         description: "Complete HT transformer installation for a manufacturing unit in Peenya Industrial Area, including BESCOM approvals and commissioning.",
         //image: "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80"
-        image: "/img/transformer.jpeg"
+        image: "/img/Transformer.jpeg"
     },
     {
         id: 2,
