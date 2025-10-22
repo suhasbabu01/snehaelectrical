@@ -63,39 +63,40 @@ const projectsData = [
         title: "Industrial Transformer Installation",
         description: "Complete HT transformer installation for a manufacturing unit in Peenya Industrial Area, including BESCOM approvals and commissioning.",
         //image: "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80"
-        image: "./img/Transformer.jpeg"
+        image: "/img/IndustrialTransformer.jpeg"
     },
     {
         id: 2,
         title: "Commercial Complex Electrical Setup",
         description: "Complete LT electrical installation for a 5-story commercial complex in Whitefield, including distribution boards and BESCOM connection.",
         //image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
-        image: "./img/LTmeter.jpeg"
+        image: "/img/LTmeter.jpeg"
     },
     {
         id: 3,
         title: "Apartment Complex Power Upgrade",
         description: "Additional load approval and electrical infrastructure upgrade for a 50-unit apartment complex in JP Nagar, including meter shifting.",
-        image: "https://images.unsplash.com/photo-1621905251189-08e43c5b79ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        //image: "https://images.unsplash.com/photo-1621905251189-08e43c5b79ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        image: "/img/Transformer.jpeg"
     },
     {
         id: 4,
         title: "Factory HT Line Installation",
         description: "11kV HT line installation for an automotive parts manufacturing facility with transformer setup and safety systems.",
         image: "https://images.unsplash.com/photo-1572021335469-31706a17aaef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-    },
-    {
-        id: 5,
-        title: "Shopping Mall Electrical Infrastructure",
-        description: "Complete electrical infrastructure for a 3-level shopping mall including LT panels, emergency systems, and BESCOM coordination.",
-        image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
-    },
-    {
-        id: 6,
-        title: "Hospital Power Backup System",
-        description: "Installation of dedicated power backup systems and electrical safety measures for a multi-specialty hospital.",
-        image: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
-    }
+    }//,
+    // {
+    //     id: 5,
+    //     title: "Shopping Mall Electrical Infrastructure",
+    //     description: "Complete electrical infrastructure for a 3-level shopping mall including LT panels, emergency systems, and BESCOM coordination.",
+    //     image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
+    // },
+    // {
+    //     id: 6,
+    //     title: "Hospital Power Backup System",
+    //     description: "Installation of dedicated power backup systems and electrical safety measures for a multi-specialty hospital.",
+    //     image: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
+    // }
 ];
 
 // Mobile Navigation Toggle
@@ -269,8 +270,7 @@ function loadProjects() {
     const projectsHTML = projectsData.map(project => `
         <div class="project-card">
             <div class="project-img">
-                <img src="${project.image}" alt="${project.title}" 
-                     onerror="this.src='https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80'; this.alt='Image not available'">
+                <img src="${project.image}" alt="${project.title}">
             </div>
             <div class="project-content">
                 <h3>${project.title}</h3>
