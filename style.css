@@ -883,6 +883,12 @@ header.scrolled {
     flex-shrink: 0;
 }
 
+.contact-icon i {
+    transform: none !important;
+    display: inline-block;
+    rotate: 0deg;
+}
+
 .contact-item h4 {
     font-size: 18px;
     color: #2c3e50;
