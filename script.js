@@ -1,60 +1,60 @@
 // Sample BESCOM news data (in a real implementation, this would come from an API)
-const bescomNews = [
-    {
-        id: 1,
-        title: "New Online Application Portal for Electrical Connections",
-        excerpt: "BESCOM has launched a new simplified online portal for applying for new electrical connections, making the process faster and more transparent.",
-        date: "June 15, 2023",
-        category: "schemes",
-        image: "https://bescom.karnataka.gov.in/storage/pdf-files/WhatsApp%20Image%202023-06-15%20at%2012.29.37%20PM.jpeg",
-        link: "#"
-    },
-    {
-        id: 2,
-        title: "Revised Tariff Structure for Commercial Establishments",
-        excerpt: "BESCOM has announced revised tariff rates for commercial establishments effective from July 1st, 2023. Check the new rates and categories.",
-        date: "May 20, 2023",
-        category: "tariff",
-        image: "https://bescom.karnataka.gov.in/storage/pdf-files/WhatsApp%20Image%202023-05-20%20at%2010.45.15%20AM.jpeg",
-        link: "#"
-    },
-    {
-        id: 3,
-        title: "Solar Rooftop Scheme with Enhanced Subsidies",
-        excerpt: "BESCOM in collaboration with KREDL has launched an enhanced solar rooftop scheme with increased subsidies for residential consumers.",
-        date: "April 10, 2023",
-        category: "schemes",
-        image: "https://bescom.karnataka.gov.in/storage/pdf-files/WhatsApp%20Image%202023-04-10%20at%203.15.30%20PM.jpeg",
-        link: "#"
-    },
-    {
-        id: 4,
-        title: "Safety Guidelines for Monsoon Season",
-        excerpt: "BESCOM has issued new safety guidelines for the monsoon season to prevent electrical accidents. All consumers are advised to follow these guidelines strictly.",
-        date: "June 5, 2023",
-        category: "safety",
-        image: "https://bescom.karnataka.gov.in/storage/pdf-files/monsoon-safety.jpg",
-        link: "#"
-    },
-    {
-        id: 5,
-        title: "Scheduled Maintenance in Bangalore South Division",
-        excerpt: "Power supply will be temporarily suspended in parts of Bangalore South Division on June 25th for scheduled maintenance work from 10 AM to 4 PM.",
-        date: "June 18, 2023",
-        category: "maintenance",
-        image: "https://bescom.karnataka.gov.in/storage/pdf-files/maintenance-notice.jpg",
-        link: "#"
-    },
-    {
-        id: 6,
-        title: "New Time-of-Day Tariff for Industrial Consumers",
-        excerpt: "BESCOM introduces Time-of-Day tariff for industrial consumers to encourage energy consumption during off-peak hours with discounted rates.",
-        date: "May 30, 2023",
-        category: "tariff",
-        image: "https://bescom.karnataka.gov.in/storage/pdf-files/tod-tariff.jpg",
-        link: "#"
-    }
-];
+// const bescomNews = [
+//     {
+//         id: 1,
+//         title: "New Online Application Portal for Electrical Connections",
+//         excerpt: "BESCOM has launched a new simplified online portal for applying for new electrical connections, making the process faster and more transparent.",
+//         date: "June 15, 2023",
+//         category: "schemes",
+//         image: "https://bescom.karnataka.gov.in/storage/pdf-files/WhatsApp%20Image%202023-06-15%20at%2012.29.37%20PM.jpeg",
+//         link: "#"
+//     },
+//     {
+//         id: 2,
+//         title: "Revised Tariff Structure for Commercial Establishments",
+//         excerpt: "BESCOM has announced revised tariff rates for commercial establishments effective from July 1st, 2023. Check the new rates and categories.",
+//         date: "May 20, 2023",
+//         category: "tariff",
+//         image: "https://bescom.karnataka.gov.in/storage/pdf-files/WhatsApp%20Image%202023-05-20%20at%2010.45.15%20AM.jpeg",
+//         link: "#"
+//     },
+//     {
+//         id: 3,
+//         title: "Solar Rooftop Scheme with Enhanced Subsidies",
+//         excerpt: "BESCOM in collaboration with KREDL has launched an enhanced solar rooftop scheme with increased subsidies for residential consumers.",
+//         date: "April 10, 2023",
+//         category: "schemes",
+//         image: "https://bescom.karnataka.gov.in/storage/pdf-files/WhatsApp%20Image%202023-04-10%20at%203.15.30%20PM.jpeg",
+//         link: "#"
+//     },
+//     {
+//         id: 4,
+//         title: "Safety Guidelines for Monsoon Season",
+//         excerpt: "BESCOM has issued new safety guidelines for the monsoon season to prevent electrical accidents. All consumers are advised to follow these guidelines strictly.",
+//         date: "June 5, 2023",
+//         category: "safety",
+//         image: "https://bescom.karnataka.gov.in/storage/pdf-files/monsoon-safety.jpg",
+//         link: "#"
+//     },
+//     {
+//         id: 5,
+//         title: "Scheduled Maintenance in Bangalore South Division",
+//         excerpt: "Power supply will be temporarily suspended in parts of Bangalore South Division on June 25th for scheduled maintenance work from 10 AM to 4 PM.",
+//         date: "June 18, 2023",
+//         category: "maintenance",
+//         image: "https://bescom.karnataka.gov.in/storage/pdf-files/maintenance-notice.jpg",
+//         link: "#"
+//     },
+//     {
+//         id: 6,
+//         title: "New Time-of-Day Tariff for Industrial Consumers",
+//         excerpt: "BESCOM introduces Time-of-Day tariff for industrial consumers to encourage energy consumption during off-peak hours with discounted rates.",
+//         date: "May 30, 2023",
+//         category: "tariff",
+//         image: "https://bescom.karnataka.gov.in/storage/pdf-files/tod-tariff.jpg",
+//         link: "#"
+//     }
+// ];
 
 // Sample Projects Data
 const projectsData = [
@@ -190,77 +190,77 @@ document.querySelectorAll('.btn').forEach(button => {
 });
 
 // Dynamic News Loading
-function loadNews(category = 'all') {
-    const newsContainer = document.getElementById('news-container');
+// function loadNews(category = 'all') {
+//     const newsContainer = document.getElementById('news-container');
 
-    // Show loading state
-    newsContainer.innerHTML = `
-        <div class="news-loader">
-            <div class="spinner"></div>
-            <p>Loading latest BESCOM updates...</p>
-        </div>
-    `;
+//     // Show loading state
+//     newsContainer.innerHTML = `
+//         <div class="news-loader">
+//             <div class="spinner"></div>
+//             <p>Loading latest BESCOM updates...</p>
+//         </div>
+//     `;
 
-    // Simulate API call delay
-    setTimeout(() => {
-        let filteredNews = bescomNews;
+//     // Simulate API call delay
+//     setTimeout(() => {
+//         let filteredNews = bescomNews;
 
-        if (category !== 'all') {
-            filteredNews = bescomNews.filter(news => news.category === category);
-        }
+//         if (category !== 'all') {
+//             filteredNews = bescomNews.filter(news => news.category === category);
+//         }
 
-        if (filteredNews.length === 0) {
-            newsContainer.innerHTML = `
-                <div class="text-center">
-                    <h3>No news available in this category</h3>
-                    <p>Please check back later for updates.</p>
-                </div>
-            `;
-            return;
-        }
+//         if (filteredNews.length === 0) {
+//             newsContainer.innerHTML = `
+//                 <div class="text-center">
+//                     <h3>No news available in this category</h3>
+//                     <p>Please check back later for updates.</p>
+//                 </div>
+//             `;
+//             return;
+//         }
 
-        // Generate news cards HTML
-        const newsHTML = filteredNews.map(news => `
-            <div class="news-card">
-                <div class="news-img">
-                    <img src="${news.image}" alt="${news.title}">
-                </div>
-                <div class="news-content">
-                    <div class="news-date">${news.date}</div>
-                    <h3>${news.title}</h3>
-                    <p>${news.excerpt}</p>
-                    <a href="${news.link}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-        `).join('');
+//         // Generate news cards HTML
+//         const newsHTML = filteredNews.map(news => `
+//             <div class="news-card">
+//                 <div class="news-img">
+//                     <img src="${news.image}" alt="${news.title}">
+//                 </div>
+//                 <div class="news-content">
+//                     <div class="news-date">${news.date}</div>
+//                     <h3>${news.title}</h3>
+//                     <p>${news.excerpt}</p>
+//                     <a href="${news.link}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+//                 </div>
+//             </div>
+//         `).join('');
 
-        // Update news container
-        newsContainer.innerHTML = `
-            <div class="news-grid">
-                ${newsHTML}
-            </div>
-        `;
+//         // Update news container
+//         newsContainer.innerHTML = `
+//             <div class="news-grid">
+//                 ${newsHTML}
+//             </div>
+//         `;
 
-        // Trigger animations for newly loaded cards
-        setTimeout(() => {
-            animateOnScroll();
-        }, 100);
+//         // Trigger animations for newly loaded cards
+//         setTimeout(() => {
+//             animateOnScroll();
+//         }, 100);
 
-    }, 800); // Simulate network delay
-}
+//     }, 800); // Simulate network delay
+// }
 
 // News category tabs functionality
-document.querySelectorAll('.news-tab').forEach(tab => {
-    tab.addEventListener('click', function () {
-        // Update active tab
-        document.querySelectorAll('.news-tab').forEach(t => t.classList.remove('active'));
-        this.classList.add('active');
+// document.querySelectorAll('.news-tab').forEach(tab => {
+//     tab.addEventListener('click', function () {
+//         // Update active tab
+//         document.querySelectorAll('.news-tab').forEach(t => t.classList.remove('active'));
+//         this.classList.add('active');
 
-        // Load news for selected category
-        const category = this.getAttribute('data-category');
-        loadNews(category);
-    });
-});
+//         // Load news for selected category
+//         const category = this.getAttribute('data-category');
+//         loadNews(category);
+//     });
+// });
 
 // Load Projects
 function loadProjects() {
@@ -569,7 +569,7 @@ document.getElementById('sendWhatsappBtn').addEventListener('click', function() 
 
 // Initialize everything on page load
 document.addEventListener('DOMContentLoaded', function () {
-    loadNews();
+    // loadNews();
     loadProjects();
     initProjectsScroll();
     initLocationPopup();
