@@ -63,21 +63,21 @@ const projectsData = [
         title: "Industrial Transformer Installation",
         description: "Complete HT transformer installation for a manufacturing unit in Peenya Industrial Area, including BESCOM approvals and commissioning.",
         //image: "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80"
-        image: "/img/IndustrialTransformer.jpeg"
+        image: "img/IndustrialTransformer.jpeg"
     },
     {
         id: 2,
         title: "Commercial Complex Electrical Setup",
         description: "Complete LT electrical installation for a 5-story commercial complex in Whitefield, including distribution boards and BESCOM connection.",
         //image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
-        image: "/img/LTmeter.jpeg"
+        image: "img/LTmeter.jpeg"
     },
     {
         id: 3,
         title: "Apartment Complex Power Upgrade",
         description: "Additional load approval and electrical infrastructure upgrade for a 50-unit apartment complex in JP Nagar, including meter shifting.",
         //image: "https://images.unsplash.com/photo-1621905251189-08e43c5b79ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-        image: "/img/Transformer.jpeg"
+        image: "img/Transformer.jpeg"
     },
     {
         id: 4,
