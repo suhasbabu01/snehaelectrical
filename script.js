@@ -61,9 +61,9 @@ const projectsData = [
     {
         id: 1,
         title: "Industrial Transformer Installation",
-        description: "Complete HT transformer installation for a manufacturing unit in Peenya Industrial Area, including BESCOM approvals and commissioning.",
+        description: "Complete HT transformer installation for a manufacturing unit in Jigani Industrial Area, including BESCOM approvals and commissioning.",
         //image: "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80"
-        image: "./img/IndustrialTransformer.jpeg"
+        image: "img/Transformer.jpeg"//"./img/IndustrialTransformer.jpeg"
     },
     {
         id: 2,
@@ -83,7 +83,7 @@ const projectsData = [
         id: 4,
         title: "Factory HT Line Installation",
         description: "11kV HT line installation for an automotive parts manufacturing facility with transformer setup and safety systems.",
-        image: "https://images.unsplash.com/photo-1572021335469-31706a17aaef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        image: "./img/IndustrialTransformer.jpeg" //"https://images.unsplash.com/photo-1572021335469-31706a17aaef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
     }//,
     // {
     //     id: 5,
